@@ -1,0 +1,155 @@
+body{
+	margin: auto;
+}
+
+
+#outer{
+	display: flex;
+	margin: auto;
+	margin-top: 50px; 
+	width: 720px;
+	height: 500px;
+	background-color: lightgray;
+}
+
+#icon-input{
+	width: 410px;
+	height: 50px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: lightgray;
+	border-radius: 10px;
+}
+
+#icon-input img{
+	position: relative;
+	top: 9px;
+	left: 5px;
+	height: 35px;
+	width: 35px;
+	background-color: lightgray;
+}
+
+#container{
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px 10px grey;
+	background-color: white;
+	margin: auto;
+	padding: 0px 20px;
+	height: 400px;
+	width: 450px;
+	border-radius: 10px;
+}
+
+#icon-input input[type="text"]{
+	position: relative;
+	top: -2px;
+	left: 5px;
+	width: 350px;
+	height: 48px;
+	font-size: 25px;
+	border: none;
+	outline: none;
+	background-color: lightgray;
+	border-radius: 10px;
+}
+
+#complete-clear{
+	margin-top: 5px; 
+	color: lightgrey;
+}
+
+#complete{
+	position: relative;
+	cursor: pointer;
+}
+
+#clear{
+	position: relative;
+	right: -155px;
+	cursor: pointer;
+}
+
+ul{
+	list-style-type: none;
+	padding-left : 0px;
+	overflow: scroll;
+	height: 225px;
+}
+
+.list{
+	position: relative;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#list-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#list-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.check-box{/*
+	position: absolute;
+	left: 0px;*/
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 15px;
+	margin-right: 20px;
+	border: 1px solid black; 
+}
+
+
+input[type="checkbox"]{
+	display: none
+}
+
+
+.delete{
+	position: absolute;
+	right: 10px;
+	display: none;
+	cursor: pointer;
+}
+
+.list:hover .delete{
+	display: inline;
+}
+
+.color{
+	background-color: black;
+}
+
+#footer{
+	position: relative;
+	color: lightgrey;
+}
+
+#task-left{
+	position: absolute;
+	left: 0;
+}
+
+#container-group{
+	position: absolute;
+	right: 0;
+}
+
+#uncompleted{
+	margin: 0px 5px;
+	cursor: pointer;
+}
+
+#completed{
+	cursor: pointer;
+}
+
+#all{
+	cursor: pointer;
+}
